@@ -10,7 +10,7 @@
             <InputComp v-model:value="password" label="رمز عبور" placeholder="رمز عبور را وارد کنید" type="password" />
             <InputComp v-model:value="rePassword" label="تکرار رمز عبور" placeholder="رمز عبور را مجدد وارد کنید" type="password" />
             <div class="submit">
-              <ButtonComp label="ثبت نام" color="blue" @click="submitForm" />
+              <ButtonComp label="ثبت نام" color="green" @click="submitForm" />
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ body {
 
 .container {
   width: 100%;
-  max-width:700px;
+  max-width:400px;
   padding: 0 20px;
   box-sizing: border-box;
 }

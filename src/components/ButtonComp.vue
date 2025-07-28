@@ -10,7 +10,7 @@ export default {
     },
     computed: {
         backgroundColor() {
-            if (this.color === 'blue') return '#28a745';
+            if (this.color === 'green') return '#28a745';
             if (this.color === 'yellow') return '#ffc107';
             return '#007bff';
         },
